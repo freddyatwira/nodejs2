@@ -18,7 +18,7 @@ const db = mysql.createPool({
             database: 'backend'
 })
 
-const port = process.env.PORT || 3005;
+const port = "https://kenhotex.atwira.com" || 3005;
 
 app.listen(port, ()=>console.log(`server running on port ${port}`));
 
